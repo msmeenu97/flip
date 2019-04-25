@@ -1,0 +1,82 @@
+Test plan document for facebook group chat
+
+Introduction- 1. Provide an overview of the test plan.
+	      2. goals/objectives.
+Test Items :    Testing of Facebook group chat feature, with admin as a member, and other specific activities related to the same
+
+Test Deliverables: 1. Test Plan
+	               2. Test Cases
+	               3. Defect logs
+	               4. Test Reports
+
+Estimate : The overall fetaure along with the documentation and pre-requisites, if completed,
+	will be taking an estimated 60 man-hours, with complete set up. This will exclude the automation
+	testimg for the sme module.
+	
+	Test report- 30 man-hours
+	Test Delivcery- 20 man-hours
+
+Responsibilities :  List the responsibilities of each team/role/individual- includes manual as well as automation testing
+
+
+		1. Manager- Manage the whole project, Define project directions,Acquire appropriate resources
+
+		2. Tester - Identifying and describing appropriate test techniques/tools/automation architecture
+			-Verify and assess the Test Approach
+			-Execute the tests, Log results, Report the defects.
+			-Tester could be in-sourced or out-sourced members, base on the project budget
+			-For the task which required low skill, I recommend you choose outsourced members to save project cost.
+			- Implement the test cases, test program, test suite etc.
+		3. Test Admin=- Builds up test environment, supports the testing process and members
+
+
+Test Deliverables= 
+
+		Test deliverables provided before testing phase.
+
+		1.Test plans document.
+		2. Test cases documents
+		3.Test Design specifications.
+		4. Test deliverables are provided during the testing
+
+Test Scripts
+		1. Simulators.
+		2. Test Data
+		3. Test Traceability Matrix
+		4. Error logs and execution logs.
+		5. Test deliverables are provided after the testing cycles is over.
+
+Test Results/reports
+		1. Defect Report
+		2. Installation/ Test procedures guidelines
+		3. Release notes
+
+
+Entry Criteria-  1. Test plan 2. Test cases and test data 3. test tools 4. Executing functional, business flow perfectly , 
+		and make sure they are working fine
+
+Exit Criteria - . Test Logs
+	       . test reports
+	       . test summary
+
+
+Test cases for facebook groups chat
+
+1. Verify that a group should contain atleast 2 or more memnbers
+2. Verify that once a member is added to a group, every member should be notified with a message.
+3. Verify that there should be a limit on adding new participants till maximum number of participants are reached.
+4. verify that only admin(only admin can change the group setting , adding participant,icon.status, delete group, etc)
+5. Verify that any group member can exit the group chat at any point of time
+6,. Verify that any member can delete a chat at any time.
+7. Verify that when internet is not there , messages from participatant is queued and once intenet comes back, 
+   every member should receive the message at that point. 
+8. Verify that each member can unmute a message.
+9. Verify that any member can send text,files, pics,images,videos,gif,media, to and from, to every one at same time.
+10. Verify that search text,filters, atatchment should be available to all the members
+
+11. Verify that a member should be able to post smileys using keyboard keys and send to group chat
+12. Verify that any member can forward message to any group or individual member, other that the group
+13. Verify that members are able to reply to specific person in the group.
+14. Verify that if a member try to delete the message before group memberes receiving it, s/he can do it
+15. Verify that a member is not able to to create multiple groups with same name
+16, Verify that only admin is able to change the security settings for the chat
